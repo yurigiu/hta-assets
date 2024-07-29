@@ -8,7 +8,7 @@ Window.prototype.center = function(w,h){
 		(screen.availWidth - (w||window.outerWidth)) / 2,
 		(screen.availHeight - (h||window.outerHeight)) / 2
 	);
-}
+};
 
 Window.prototype.minSize = function(w,h){
 	window.addEventListener('resize', function(e){
